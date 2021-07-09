@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HUD/HUD.iml" filepath="$PROJECT_DIR$/HUD/HUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HUD/labymod-hud.iml" filepath="$PROJECT_DIR$/HUD/labymod-hud.iml" />
     </modules>
   </component>
 </project>
