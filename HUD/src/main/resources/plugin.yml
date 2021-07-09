@@ -1,0 +1,5 @@
+name: Labymod-HUD
+version: ${project.version}
+main: dev.maiky.labymodhud.Main
+softdepend:  [ LabymodAPI, Vault ]
+authors: [ Maiky1304, Manthos ]

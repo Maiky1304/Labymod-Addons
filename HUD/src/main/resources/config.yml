@@ -1,0 +1,10 @@
+# Hoeft niet mag wel zorg wel dat het 1:1 ratio heeft, dus bijvoorbeeld 250x250
+# En zorg dat een PNG file is.
+custom-icon: 'https://i.imgur.com/VEgly9H.png'
+
+# Format voor banksaldo
+decimal-format: '€#,##0.00'
+
+# Check saldo om de x hoeveelheid tijd
+# Als het hiermee lagged zet dit dan hoger!
+update-time: 5s
