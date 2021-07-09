@@ -1,0 +1,4 @@
+name: Labymod-Only
+version: ${project.version}
+main: nl.manthos.labymodonly.Main
+authors: [ Manthos, Maiky1304 ]
