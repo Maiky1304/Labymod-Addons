@@ -8,7 +8,8 @@ import java.util.List;
 
 public enum Settings {
 
-    KICK_MESSAGE("kick-message", "Je hebt LabyMod nodig om deze server te joinen, download het hier: https://www.labymod.net/nl/download");
+    KICK_MESSAGE("kick-message", "Je hebt LabyMod nodig om deze server te joinen, download het hier: https://www.labymod.net/nl/download"),
+    CONSOLE_MESSAGE_APPROVED("console-message-approved", "Player %player% is using LabyMod, join approved!");
 
     private @Getter
     final String yamlPath;

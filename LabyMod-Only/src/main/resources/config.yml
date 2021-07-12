@@ -1,2 +1,5 @@
-# Let op dat je de '' niet vergeet aan het begin en het einde!
+# Make sure you don't forget the '' at the beginning and the end !
 kick-message: 'Je hebt LabyMod nodig om deze server te joinen, download het hier: https://www.labymod.net/nl/download'
+
+# %player% will be replaced with the players name!
+console-message-approved: 'Player %player% is using LabyMod, join approved!'
