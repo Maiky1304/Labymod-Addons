@@ -1,0 +1,5 @@
+name: LabyMod-Flags
+version: ${project.version}
+main: nl.manthos.labymodflags.Main
+softdepend: [ LabyModAPI ]
+authors: [ Manthos ]
