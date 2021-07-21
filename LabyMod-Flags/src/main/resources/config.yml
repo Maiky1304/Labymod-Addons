@@ -1,0 +1,4 @@
+# Voer landcodes hier in, denk aan "US", "DE" of "NE"
+countries:
+  - NE
+  - BE
