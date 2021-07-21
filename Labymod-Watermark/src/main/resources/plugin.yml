@@ -1,4 +1,4 @@
 name: Labymod Watermark
 version: ${project.version}
-main: nl.manthos.labymodwatermark.LabymodWatermark
+main: nl.manthos.labymodwatermark.Main
 authors: [ Manthos ]
