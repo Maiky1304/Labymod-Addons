@@ -1,4 +1,6 @@
 name: LabyMod-Tab
 version: ${project.version}
 main: nl.manthos.labymodtab.Main
-authors: [ Manthos ]
+authors: [ Manthos, Maiky1304]
+softdepend:
+  - LabyModAPI

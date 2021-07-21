@@ -1,7 +1,6 @@
 package nl.manthos.labymodtab.util.labymod;
 
 import com.google.gson.JsonElement;
-import nl.manthos.labymodflags.Main;
 import nl.manthos.labymodtab.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.Server;

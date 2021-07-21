@@ -1,0 +1,5 @@
+# Zorg dat het een link is en dat het een 5:1 ratio is de aangeraden aantal pixels is 1280x256
+# Handige Tools:
+#   - Maak je link met imgur: https://imgur.com (Als je hem hebt gemaakt zorg ervoor dat je rechter-muisknop en dan openen in nieuw tab om de goede link te krijgen!
+#   - Maak je afbeelding transparant met: https://onlinepngtools.com/create-transparent-png
+server-banner-url: 'https://i.imgur.com/kHfgH7F.png'
