@@ -1,0 +1,4 @@
+name: LabyMod-Tab
+version: ${project.version}
+main: nl.manthos.labymodtab.Main
+authors: [ Manthos ]
