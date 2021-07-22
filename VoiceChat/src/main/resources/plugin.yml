@@ -1,0 +1,4 @@
+name: LabyMod-Voicechat
+version: ${project.version}
+main: nl.manthos.labymodvoicechat.Main
+authors: [ Manthos, Maiky1304 ]
