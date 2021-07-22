@@ -4,3 +4,8 @@ main: nl.manthos.labymodtab.Main
 authors: [ Manthos, Maiky1304]
 softdepend:
   - LabyModAPI
+
+commands:
+  labymodtab:
+    aliases: [labytab]
+    description: LabyMod-Tab Command to see the authors

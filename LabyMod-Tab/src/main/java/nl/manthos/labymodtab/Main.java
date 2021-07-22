@@ -3,6 +3,7 @@ package nl.manthos.labymodtab;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
+import nl.manthos.labymodtab.commands.LabyModTabCommand;
 import nl.manthos.labymodtab.listeners.PlayerJoinListener;
 import nl.manthos.labymodtab.util.config.Config;
 import nl.manthos.labymodtab.util.config.Settings;
@@ -28,6 +29,7 @@ public final class Main extends JavaPlugin {
 
         // Dependencies
         Dependecies dependecies = new Dependecies("LabyModAPI");
+        Dependecies.addPlugins();
         if (!dependecies.check()) {
             this.setEnabled(false);
             return;
@@ -44,6 +46,8 @@ public final class Main extends JavaPlugin {
         registerListeners(
                 new PlayerJoinListener()
         );
+
+        this.getCommand("labymodtab").setExecutor(new LabyModTabCommand());
     }
 
     private void registerListeners(Listener... listeners) {

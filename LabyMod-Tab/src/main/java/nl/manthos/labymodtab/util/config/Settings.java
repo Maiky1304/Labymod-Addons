@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public enum Settings {
-    SERVER_BANNER_URL("server-banner-url", "https://i.imgur.com/kHfgH7F.png");
+    SERVER_BANNER_URL("server-banner-url", "https://i.imgur.com/YdeR4J2.png");
 
     private @Getter
     final String yamlPath;

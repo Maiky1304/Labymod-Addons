@@ -11,6 +11,10 @@ public class PlayerJoinListener implements Listener {
 
     private Main main = Main.getInstance();
 
+    /**
+     * Sends to the banner to the player!
+     */
+
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e) {
         Player player = e.getPlayer();

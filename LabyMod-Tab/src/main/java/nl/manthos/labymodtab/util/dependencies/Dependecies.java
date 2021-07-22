@@ -23,15 +23,15 @@ public class Dependecies {
 
         for (String string : this.dependecies) {
             if (!pluginManager.isPluginEnabled(string)) {
-                main.getLogger().warning("De plugin " + string + " is niet geinstalleerd, deze heb je nodig om de plugin te kunnen laden.");
-                main.getLogger().warning("Aan het zoeken naar een downloadlink in database...");
+                main.getLogger().warning("The plugin " + string + " is not installed, you need this to load the plugin.");
+                main.getLogger().warning("Searching for a downloadlink in database...");
                 Bukkit.getScheduler().runTaskLater(main, new Runnable() {
                     @Override
                     public void run() {
                         if (checkDatabase(string)) {
-                            main.getLogger().warning("Downloadlink gevonden: " + getLink(string));
+                            main.getLogger().warning("Found Downloadlink: " + getLink(string));
                         } else {
-                            main.getLogger().warning("Geen downloadlink gevonden in database!");
+                            main.getLogger().warning("There was no downloadlink found in the database!");
                         }
                     }
                 }, 20L);
